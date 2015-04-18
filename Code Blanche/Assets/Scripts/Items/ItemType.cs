@@ -1,0 +1,1 @@
+﻿public enum ItemType{ LightBulb, LightBulbWire, PillowCase, Pillow};

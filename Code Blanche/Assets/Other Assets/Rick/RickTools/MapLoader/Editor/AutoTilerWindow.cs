@@ -182,8 +182,8 @@ namespace RickTools.MapLoader{
 			RickEditorGUI.Label("Output-Tiled AutoTiles","");
 			currentAutotile.tilesFileName = EditorGUILayout.TextField("TilesetName.tmx" , currentAutotile.tilesFileName);
 			if(GUILayout.Button("Export")){
-			   //autoTileFilePath = EditorUtility.SaveFilePanel("Autotile file", RickEditorGUI.rootFolder, "autotile","tmx");
-			   currentAutotile.autoTileFilePath = "C:/Users/The User/Documents/Unity Games/jeux/ITT1_EndlessTowerClimber/autotile.tmx";
+			   currentAutotile.autoTileFilePath = EditorUtility.SaveFilePanel("Autotile file", RickEditorGUI.rootFolder, "autotile","tmx");
+			   //currentAutotile.autoTileFilePath = "C:/Users/The User/Documents/Unity Games/jeux/ITT1_EndlessTowerClimber/autotile.tmx";
 			   export();
 			}
 			

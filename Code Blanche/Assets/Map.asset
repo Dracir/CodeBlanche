@@ -1,0 +1,235 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af9ef2590559d48439f77b8e9273e3d0, type: 3}
+  m_Name: Map
+  m_EditorClassIdentifier: 
+  savedTime: 3
+  tilesets:
+  - name: Tiles
+    imagePath: Sprites/Map/Tiles
+    nbTileX: 10
+    nbTileY: 6
+    tiles:
+    - id: 0
+      prefab: {fileID: 196104, guid: b28a337f7d49a0b4887993ce0557f50a, type: 2}
+    - id: 1
+      prefab: {fileID: 178764, guid: da74764e85925864493e4bd7d64a9769, type: 2}
+    - id: 2
+      prefab: {fileID: 169804, guid: ab00c438fba35f842a7637e1fcbce9c0, type: 2}
+    - id: 3
+      prefab: {fileID: 167014, guid: 72433017fde89894bb0e0fcf44154e23, type: 2}
+    - id: 4
+      prefab: {fileID: 177704, guid: fecc165906b0a9d44bfd317c5abaa23d, type: 2}
+    - id: 5
+      prefab: {fileID: 157752, guid: 04829761dfa5ae241baf11cce0dd134a, type: 2}
+    - id: 6
+      prefab: {fileID: 0}
+    - id: 7
+      prefab: {fileID: 0}
+    - id: 8
+      prefab: {fileID: 0}
+    - id: 9
+      prefab: {fileID: 0}
+    - id: 10
+      prefab: {fileID: 108146, guid: 8ee7f13e800647a4ebe76fd029851bfa, type: 2}
+    - id: 11
+      prefab: {fileID: 167550, guid: 59ab6faf598533f4cb8bd7727d1bc9c7, type: 2}
+    - id: 12
+      prefab: {fileID: 0}
+    - id: 13
+      prefab: {fileID: 0}
+    - id: 14
+      prefab: {fileID: 0}
+    - id: 15
+      prefab: {fileID: 0}
+    - id: 16
+      prefab: {fileID: 0}
+    - id: 17
+      prefab: {fileID: 0}
+    - id: 18
+      prefab: {fileID: 0}
+    - id: 19
+      prefab: {fileID: 0}
+    - id: 20
+      prefab: {fileID: 0}
+    - id: 21
+      prefab: {fileID: 0}
+    - id: 22
+      prefab: {fileID: 0}
+    - id: 23
+      prefab: {fileID: 0}
+    - id: 24
+      prefab: {fileID: 0}
+    - id: 25
+      prefab: {fileID: 0}
+    - id: 26
+      prefab: {fileID: 0}
+    - id: 27
+      prefab: {fileID: 0}
+    - id: 28
+      prefab: {fileID: 0}
+    - id: 29
+      prefab: {fileID: 0}
+    - id: 30
+      prefab: {fileID: 0}
+    - id: 31
+      prefab: {fileID: 0}
+    - id: 32
+      prefab: {fileID: 0}
+    - id: 33
+      prefab: {fileID: 0}
+    - id: 34
+      prefab: {fileID: 0}
+    - id: 35
+      prefab: {fileID: 0}
+    - id: 36
+      prefab: {fileID: 0}
+    - id: 37
+      prefab: {fileID: 0}
+    - id: 38
+      prefab: {fileID: 0}
+    - id: 39
+      prefab: {fileID: 0}
+    - id: 40
+      prefab: {fileID: 0}
+    - id: 41
+      prefab: {fileID: 0}
+    - id: 42
+      prefab: {fileID: 0}
+    - id: 43
+      prefab: {fileID: 0}
+    - id: 44
+      prefab: {fileID: 0}
+    - id: 45
+      prefab: {fileID: 0}
+    - id: 46
+      prefab: {fileID: 0}
+    - id: 47
+      prefab: {fileID: 0}
+    - id: 48
+      prefab: {fileID: 0}
+    - id: 49
+      prefab: {fileID: 0}
+    - id: 50
+      prefab: {fileID: 0}
+    - id: 51
+      prefab: {fileID: 0}
+    - id: 52
+      prefab: {fileID: 0}
+    - id: 53
+      prefab: {fileID: 0}
+    - id: 54
+      prefab: {fileID: 0}
+    - id: 55
+      prefab: {fileID: 0}
+    - id: 56
+      prefab: {fileID: 0}
+    - id: 57
+      prefab: {fileID: 0}
+    - id: 58
+      prefab: {fileID: 0}
+    - id: 59
+      prefab: {fileID: 0}
+  - name: Specials
+    imagePath: Sprites/Map/Specials
+    nbTileX: 10
+    nbTileY: 4
+    tiles:
+    - id: 0
+      prefab: {fileID: 125070, guid: 2649ac6db7995d649a4bf4c684f57f91, type: 2}
+    - id: 1
+      prefab: {fileID: 108278, guid: f9f9a7ad262a9ee43b6bcffac9283b1e, type: 2}
+    - id: 2
+      prefab: {fileID: 0}
+    - id: 3
+      prefab: {fileID: 0}
+    - id: 4
+      prefab: {fileID: 0}
+    - id: 5
+      prefab: {fileID: 0}
+    - id: 6
+      prefab: {fileID: 0}
+    - id: 7
+      prefab: {fileID: 0}
+    - id: 8
+      prefab: {fileID: 0}
+    - id: 9
+      prefab: {fileID: 0}
+    - id: 10
+      prefab: {fileID: 0}
+    - id: 11
+      prefab: {fileID: 116514, guid: e7b8e1c357fab484a8b7c02c8507e5cd, type: 2}
+    - id: 12
+      prefab: {fileID: 166602, guid: e946e1477c85b2544aaf493fa38fafee, type: 2}
+    - id: 13
+      prefab: {fileID: 0}
+    - id: 14
+      prefab: {fileID: 0}
+    - id: 15
+      prefab: {fileID: 0}
+    - id: 16
+      prefab: {fileID: 0}
+    - id: 17
+      prefab: {fileID: 0}
+    - id: 18
+      prefab: {fileID: 0}
+    - id: 19
+      prefab: {fileID: 0}
+    - id: 20
+      prefab: {fileID: 0}
+    - id: 21
+      prefab: {fileID: 0}
+    - id: 22
+      prefab: {fileID: 132056, guid: 96add542c49bc9943aba65e314770641, type: 2}
+    - id: 23
+      prefab: {fileID: 104780, guid: f8bbefe6c4a2e164ea47b6c30168b310, type: 2}
+    - id: 24
+      prefab: {fileID: 0}
+    - id: 25
+      prefab: {fileID: 0}
+    - id: 26
+      prefab: {fileID: 0}
+    - id: 27
+      prefab: {fileID: 0}
+    - id: 28
+      prefab: {fileID: 0}
+    - id: 29
+      prefab: {fileID: 0}
+    - id: 30
+      prefab: {fileID: 157130, guid: 746e9bf28a3812b4db13968a92eca5a8, type: 2}
+    - id: 31
+      prefab: {fileID: 157130, guid: 746e9bf28a3812b4db13968a92eca5a8, type: 2}
+    - id: 32
+      prefab: {fileID: 0}
+    - id: 33
+      prefab: {fileID: 0}
+    - id: 34
+      prefab: {fileID: 0}
+    - id: 35
+      prefab: {fileID: 0}
+    - id: 36
+      prefab: {fileID: 0}
+    - id: 37
+      prefab: {fileID: 0}
+    - id: 38
+      prefab: {fileID: 0}
+    - id: 39
+      prefab: {fileID: 0}
+  autotiles:
+  - name: ConcreteWall
+    center: {fileID: 21300000, guid: 065ca7c64a8c86d4781709922b293f6f, type: 3}
+    side: {fileID: 21300004, guid: 065ca7c64a8c86d4781709922b293f6f, type: 3}
+    cornerInside: {fileID: 21300006, guid: 065ca7c64a8c86d4781709922b293f6f, type: 3}
+    cornerOutside: {fileID: 21300002, guid: 065ca7c64a8c86d4781709922b293f6f, type: 3}
+    basePrefab: {fileID: 154086, guid: 47a761bfda1bea84b859bbc91011959f, type: 2}
+    outputAssetFolder: /Prefabs/Tiles
+    autoTileFilePath: C:/Users/The User/Documents/Unity Games/jeux/ITT1_EndlessTowerClimber/autotile.tmx
+    tilesFileName: Tiles

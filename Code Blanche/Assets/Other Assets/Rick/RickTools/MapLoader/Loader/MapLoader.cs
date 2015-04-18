@@ -115,8 +115,8 @@ namespace RickTools.MapLoader{
 			}else{
 				//Debug.Log("fake on rajoute " + tileData.prefab.name + " (" + (id-1) + ")");
 				
-				Vector3 position = new Vector3(x,y);
 				GameObject original = tileData.prefab;
+				Vector3 position = new Vector3(x,y,original.transform.position.z);
 				GameObject go = (GameObject)UnityEngine.Object.Instantiate(original);
 				go.name = original.name;
 				go.transform.position = position;

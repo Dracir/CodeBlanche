@@ -1,25 +1,27 @@
 Base path: C:/Program Files/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-6532
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-3116
 Cmd: getPlatforms
-Cmd: preprocess
-  insize=1474 outsize=528 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1245 outsize=1274 kw= ok=1
+  api=4 type=0 insize=7914 outsize=3289 kw=POINT PIXELSNAP_ON ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=1245 outsize=795 kw= ok=1
+  api=4 type=1 insize=7914 outsize=2054 kw=POINT PIXELSNAP_ON ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=751 outsize=3760 kw=SHADOWS_DEPTH _ALPHABLEND_ON ok=1
+  api=4 type=0 insize=982 outsize=5377 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON _ALPHABLEND_ON ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=751 outsize=1217 kw=SHADOWS_DEPTH _ALPHABLEND_ON ok=1
+  api=4 type=0 insize=14306 outsize=5653 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON PIXELSNAP_ON ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=982 outsize=3963 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF _ALPHABLEND_ON ok=1
+  api=4 type=0 insize=408601 outsize=12665 kw=POINT GEOM_TYPE_BRANCH ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=982 outsize=10512 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF _ALPHABLEND_ON ok=1
+  api=4 type=1 insize=408601 outsize=1997 kw=POINT GEOM_TYPE_BRANCH ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=938 outsize=4020 kw=DIRECTIONAL SHADOWS_OFF _ALPHABLEND_ON ok=1
+  api=4 type=0 insize=634333 outsize=14737 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON GEOM_TYPE_BRANCH ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=938 outsize=5467 kw=DIRECTIONAL SHADOWS_OFF _ALPHABLEND_ON ok=1
+  api=4 type=0 insize=14306 outsize=5263 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1642 outsize=1274 kw=SOFTPARTICLES_OFF ok=1
+  api=4 type=0 insize=7914 outsize=2899 kw=POINT ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=1642 outsize=908 kw=SOFTPARTICLES_OFF ok=1
+  api=4 type=1 insize=7914 outsize=2054 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1089 outsize=1298 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1089 outsize=990 kw= ok=1
